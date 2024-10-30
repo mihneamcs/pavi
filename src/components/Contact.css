@@ -1,0 +1,34 @@
+#heroContact {
+    height: 60vh;
+    background: url('../assets/contact.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  .highlighted-card {
+    background: linear-gradient(135deg, #333, #444); /* Gradient background with dark grays */
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .contact-img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 15px 15px 0; /* Rounded corners for the image */
+  }
+  
+  .social-icons a {
+    color: white; /* Change icon color to white */
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd700; /* Hover color for icons */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
