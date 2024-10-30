@@ -79,7 +79,7 @@ function Home() {
         <div className='row container p-2'>
             <div className='col-12 col-md-12 col-lg-4'>
                 <div className='card text-white text-center bg-dark pb-2'>
-                    <img src={price} className='card-img-top'/>
+                    <img src={price} className='card-img-top'alt='priceImg'/>
                     <div className='card-body'>
                     <i class="fa-solid fa-object-subtract"></i>
                     <h3 className='card-title'>Calitate</h3>
@@ -90,7 +90,7 @@ function Home() {
             </div>
             <div className='col-12 col-md-12 col-lg-4'>
                 <div className='card text-white text-center bg-dark pb-2'>
-                    <img src={experience} className='card-img-top'/>
+                    <img src={experience} className='card-img-top'alt='experienceImg'/>
                     <div className='card-body'>
                     <i class="fa-solid fa-object-subtract"></i>
                     <h3 className='card-title'>Experienta</h3>
@@ -101,7 +101,7 @@ function Home() {
             </div>
             <div className='col-12 col-md-12 col-lg-4'>
                 <div className='card text-white text-center bg-dark pb-2'>
-                    <img src={colors} className=' img-fluid card-img-top'/>
+                    <img src={colors} className=' img-fluid card-img-top'alt='colorsImg'/>
                     <div className='card-body'>
                     <i class="fa-solid fa-object-subtract"></i>
                     <h3 className='card-title'>Modele si culori</h3>
