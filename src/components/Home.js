@@ -3,7 +3,14 @@ import './Home.css'
 import price from '../assets/price.jpg'
 import experience from '../assets/experience.jpg'
 import colors from '../assets/colors.jpg'
-import test from '../assets/test.jpeg'
+import ph24 from '../assets/lucrari/ph24.jpeg'
+import ph25 from '../assets/lucrari/ph25.jpeg'
+import ph26 from '../assets/lucrari/ph26.jpeg'
+import ph27 from '../assets/lucrari/ph27.jpeg'
+import ph28 from '../assets/lucrari/ph28.jpeg'
+import ph20 from '../assets/lucrari/ph20.jpeg'
+import ph30 from '../assets/lucrari/ph30.jpeg'
+import ph31 from '../assets/lucrari/ph31.jpeg'
 import person1 from '../assets/person1.jpg'
 import person2 from '../assets/person2.jpg'
 import person3 from '../assets/person3.jpg'
@@ -20,14 +27,14 @@ function Home() {
     };
 
     const projects = [
-        { id: 1, imgSrc: test, alt: 'Project 1' },
-        { id: 2, imgSrc: test, alt: 'Project 2' },
-        { id: 3, imgSrc: test, alt: 'Project 3' },
-        { id: 4, imgSrc: test, alt: 'Project 4' },
-        { id: 5, imgSrc: test, alt: 'Project 5' },
-        { id: 6, imgSrc: test, alt: 'Project 6' },
-        { id: 7, imgSrc: test, alt: 'Project 7' },
-        { id: 8, imgSrc: test, alt: 'Project 8' },
+        { id: 1, imgSrc: ph24, alt: 'Project 1' },
+        { id: 2, imgSrc: ph25, alt: 'Project 2' },
+        { id: 3, imgSrc: ph26, alt: 'Project 3' },
+        { id: 4, imgSrc: ph27, alt: 'Project 4' },
+        { id: 5, imgSrc: ph28, alt: 'Project 5' },
+        { id: 6, imgSrc: ph20, alt: 'Project 6' },
+        { id: 7, imgSrc: ph30, alt: 'Project 7' },
+        { id: 8, imgSrc: ph31, alt: 'Project 8' },
       ];
       const testimonials = [
         {
@@ -44,7 +51,7 @@ function Home() {
         },
         {
           id: 3,
-          name: 'Alexandra M.',
+          name: 'Alexandru M.',
           feedback: 'Recomand cu toată încrederea serviciile oferite de această echipă. De la primul contact și până la finalizare, totul a decurs perfect.',
           image: person3,
         },

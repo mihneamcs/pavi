@@ -1,6 +1,26 @@
 import React from 'react'
 import './Galerie.css'
-import test from '../assets/test.jpeg'
+import ph1 from '../assets/lucrari/ph1.jpeg'
+import ph2 from '../assets/lucrari/ph2.jpeg'
+import ph3 from '../assets/lucrari/ph3.jpeg'
+import ph4 from '../assets/lucrari/ph4.jpeg'
+import ph5 from '../assets/lucrari/ph5.jpeg'
+import ph6 from '../assets/lucrari/ph6.jpeg'
+import ph7 from '../assets/lucrari/ph7.jpeg'
+import ph8 from '../assets/lucrari/ph8.jpeg'
+import ph9 from '../assets/lucrari/ph9.jpeg'
+import ph10 from '../assets/lucrari/ph10.jpeg'
+import ph11 from '../assets/lucrari/ph11.jpeg'
+import ph12 from '../assets/lucrari/ph12.jpeg'
+import ph13 from '../assets/lucrari/ph13.jpeg'
+import ph14 from '../assets/lucrari/ph14.jpeg'
+import ph15 from '../assets/lucrari/ph15.jpeg'
+import ph16 from '../assets/lucrari/ph16.jpeg'
+import ph17 from '../assets/lucrari/ph17.jpeg'
+import ph18 from '../assets/lucrari/ph18.jpeg'
+import ph19 from '../assets/lucrari/ph19.jpeg'
+import ph20 from '../assets/lucrari/ph20.jpeg'
+import ph21 from '../assets/lucrari/ph21.jpeg'
 import { useNavigate } from 'react-router-dom';
 function Galerie() {
 
@@ -14,27 +34,27 @@ function Galerie() {
     };
 
     const images = [
-        { id: 1, src: test, alt: 'Gallery Image 1' },
-        { id: 2, src: test, alt: 'Gallery Image 2' },
-        { id: 3, src: test, alt: 'Gallery Image 3' },
-        { id: 4, src: test, alt: 'Gallery Image 4' },
-        { id: 5, src: test, alt: 'Gallery Image 5' },
-        { id: 6, src: test, alt: 'Gallery Image 6' },
-        { id: 7, src: test, alt: 'Gallery Image 7' },
-        { id: 8, src: test, alt: 'Gallery Image 8' },
-        { id: 9, src: test, alt: 'Gallery Image 9' },
-        { id: 10, src: test, alt: 'Gallery Image 10' },
-        { id: 11, src: test, alt: 'Gallery Image 11' },
-        { id: 12, src: test, alt: 'Gallery Image 12' },
-        { id: 13, src: test, alt: 'Gallery Image 13' },
-        { id: 14, src: test, alt: 'Gallery Image 14' },
-        { id: 15, src: test, alt: 'Gallery Image 15' },
-        { id: 16, src: test, alt: 'Gallery Image 16' },
-        { id: 17, src: test, alt: 'Gallery Image 17' },
-        { id: 18, src: test, alt: 'Gallery Image 18' },
-        { id: 19, src: test, alt: 'Gallery Image 19' },
-        { id: 20, src: test, alt: 'Gallery Image 20' },
-        { id: 21, src: test, alt: 'Gallery Image 21' },
+        { id: 1, src: ph1, alt: 'Gallery Image 1' },
+        { id: 2, src: ph2, alt: 'Gallery Image 2' },
+        { id: 3, src: ph3, alt: 'Gallery Image 3' },
+        { id: 4, src: ph4, alt: 'Gallery Image 4' },
+        { id: 5, src: ph5, alt: 'Gallery Image 5' },
+        { id: 6, src: ph6, alt: 'Gallery Image 6' },
+        { id: 7, src: ph7, alt: 'Gallery Image 7' },
+        { id: 8, src: ph8, alt: 'Gallery Image 8' },
+        { id: 9, src: ph9, alt: 'Gallery Image 9' },
+        { id: 10, src: ph10, alt: 'Gallery Image 10' },
+        { id: 11, src: ph11, alt: 'Gallery Image 11' },
+        { id: 12, src: ph12, alt: 'Gallery Image 12' },
+        { id: 13, src: ph13, alt: 'Gallery Image 13' },
+        { id: 14, src: ph14, alt: 'Gallery Image 14' },
+        { id: 15, src: ph15, alt: 'Gallery Image 15' },
+        { id: 16, src: ph16, alt: 'Gallery Image 16' },
+        { id: 17, src: ph17, alt: 'Gallery Image 17' },
+        { id: 18, src: ph18, alt: 'Gallery Image 18' },
+        { id: 19, src: ph19, alt: 'Gallery Image 19' },
+        { id: 20, src: ph20, alt: 'Gallery Image 20' },
+        { id: 21, src: ph21, alt: 'Gallery Image 21' },
       ];
   return (
     <div>

@@ -41,10 +41,10 @@ function Contact() {
                   <div className="card-body">
                     <h5 className="card-title">Contact Information</h5>
                     <p className="card-text">
-                      <strong>Phone:</strong><a href='https://wa.me/+40720870413'className='text-light'>+123 456 7890</a>
+                      <strong>Phone:</strong><a href='https://wa.me/+40720870413'className='text-light'>+40720870413</a>
                     </p>
                     <p className="card-text">
-                      <strong>Email:</strong> contact@yourcompany.com
+                      <strong>Email:</strong> pavicozo@gmail.com
                     </p>
                     <div className="social-icons mt-3">
                       <a href="https://www.facebook.com/youraccount" className="text-light mx-2">
